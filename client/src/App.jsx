@@ -60,7 +60,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* Public routes */}
+        {/* Public routes - Development Environment */}
         <Route path="/"          element={<Landing />} />
         <Route path="/menu"      element={<Menu />} />
         <Route path="/cart"      element={<Cart />} />
